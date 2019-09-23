@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>hello</title>
+</head>
+<body>
+    <ul>
+        <!--在html中写python代码-->
+        {%for book in list%}
+        <li><a href="{{book.id}}">{{book.btitle}}</a></li>
+        <!--在html中Python的for循环要加endfor-->
+        {%endfor%}
+    </ul>
+</body>
+</html>
